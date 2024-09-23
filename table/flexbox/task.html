@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .navbar {
+            height: 80px;
+            display: flex;
+            font-size: 15px;
+            justify-content: space-between;
+            background-color: black;
+        }
+     .logo {
+            font-size: 20px;
+            background-color: orange;
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            margin-top: 5px;
+            border-radius: 50px;
+        }
+      .navmenu {   
+        margin-top: 30px;
+     } 
+      a {
+            color: white;
+            margin-left: 50px;
+            text-decoration: none;
+      }
+       div>button{
+        background-color: blue;
+        color: black;
+        width: 150px;
+        font-size: 15px;
+      } 
+        div> button>a { 
+            color: orangered;
+            width: 150px;
+            font-size: 20px;
+            margin: auto;
+        }
+        button:hover{
+            background-color: white;
+        }
+      .aside {
+
+            float: left;
+            background-color: orange;
+            color: black;
+            height: 470px;
+            width: 250px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            margin-left: 20px;
+            border-radius: 90px;
+            margin-top: 20PX;
+            background-color: wheat;
+        }
+        .aside>a {
+            font-size: 20px;
+            margin-top: 40px;
+            display: block;
+        }
+        .main-content {
+         height: 470px;   
+        }
+        .main-content>a {
+            display: inline-block;
+            background-color: white;
+             color: orange; 
+            height: 40px;
+            width: 100px;
+            margin-left: 400px;
+            padding: 30px;
+            font-size: 20PX;
+            text-align: center;
+        }
+      .main-content>a:hover{
+            background-color: blue;
+        }
+      footer {
+            display: flex;
+            background-color: black;
+            color: white;
+            height: 70px;
+            font-size: 20px;
+            justify-content: center;
+        } 
+    </style>
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+        <div class="navmenu">
+            <a href="">ABOUT US</a>
+            <a href="">CONTACT US</a>
+            <a href=""> OUR SERVICES</a>
+            <a href="">OUR PRODUCTS</a>
+        </div>
+        <button> <a href=""><i class="fa-solid fa-globe"></i> WEBSITE</a> </button>
+    </div>
+    <div class="aside">
+        <img src="https://th.bing.com/th/id/OIP.mmGnKWGhkthHuxmbypLweQHaDj?w=278&h=167&c=7&r=0&o=5&pid=1.7" alt="">
+        <a href="">SCHOOL NAME</a>
+        <a href="">PLACE</a>
+        <a href="">COURSES</a>
+    </div>
+    <div class="main-content">
+      <a href="">STUDENTS <i class="fa-solid fa-graduation-cap"></i></a>
+    </div>
+    <footer>
+        <p>all rights reserved by @mySchoolApp</p>
+    </footer>
+</body>
+</html>
